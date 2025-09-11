@@ -1,0 +1,32 @@
+* {
+    background-color: azure;
+}
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+h1{
+    border: 2px double midnightblue; 
+    /*border-top: 5px double dodgerblue;
+    border-right: 10px dashed midnightblue;
+    border-left: 10px dotted deepskyblue;
+    border-bottom: 5px double dodgerblue;*/
+}
+
+h2 {
+    border: 2px outset black; 
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+figure {
+    border: 2px dotted darkred;
+    height: auto;
+    width: 550px;
+    border-radius: 20px;
+}
+
+figcaption {
+    font-family: "UnifrakturMaguntia", cursive;
+}

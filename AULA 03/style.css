@@ -1,0 +1,45 @@
+* {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 50;
+    padding: 10;
+    font-size: 62, 5%;
+    text-align: center;
+    font-family: serif;
+}
+.citacao {
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+}
+p {
+    text-indent: 20px;
+    color: deepskyblue;
+}
+
+ol li {
+    list-style: upper-roman;
+    text-align: left;
+    color: dodgerblue;
+}
+
+#titulo {
+    color: red;
+    text-shadow: 5px 5px 5px darkorchid;
+    text-align: center;
+}
+
+article p {
+    color: deepskyblue;
+}
+
+h2, h3 {
+    background-color: darkslateblue;
+}
+
+nav > ul > li > a {
+    text-align: left;
+    text-decoration: none;
+    color: blue;
+    margin: 0px;
+    padding: 0px;
+}
