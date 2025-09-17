@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Orbitron:wght@400..900&display=swap');
+}
+body{
+    font-family: "Orbitron", sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('./IMG/pokemon-go-5k-black-1920x1080-21680.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.6;
+}
+
+h2{
+    font-family: 'DM Serif Text', serif;
+    font-size: 3rem;
+    color: #F26666;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    text-shadow: 5px 5px 10px darkred;
+    line-height: 2px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: #D9601A;
+    margin: 20px;
+    text-align: justify;
+}
