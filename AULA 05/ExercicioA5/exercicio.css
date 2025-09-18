@@ -30,3 +30,24 @@ p{
     margin: 20px;
     text-align: justify;
 }
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(243, 115, 115, 0.623);
+}
+
+.card{
+    background-color: rgba(95, 95, 95, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
