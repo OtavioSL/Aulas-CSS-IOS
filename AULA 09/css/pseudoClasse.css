@@ -1,0 +1,23 @@
+:root {
+    --cor-fundo: red;
+    --cor-fonte: green;
+    --cor-titulo: blue;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: var(--cor-fundo);
+}
+.box2:hover {
+    background-color: blue;
+    color: white;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--cor-titulo);
+}

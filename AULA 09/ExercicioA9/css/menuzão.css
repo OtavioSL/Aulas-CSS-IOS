@@ -1,0 +1,50 @@
+:root{
+    --cor-fundo: #00A36C;
+    --cor-fonte: white;
+    --cor-titulo: rgb(0, 132, 255);
+    --cor-paragrafo: #ff1e1e;
+}
+
+
+
+body{
+    background-image: url(../IMG/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-118143566.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: var(--cor-titulo);
+    text-align: center;
+}
+
+a {
+  position: relative;
+  background: linear-gradient(to right, #6366f1, #a855f7);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  color: var(--cor-fonte);
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-position 0.5s ease;
+}
+
+a:hover {
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+p{
+    color: var(--cor-paragrafo);
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 15px 0 15px;
+    padding: 10px;
+    border: 2px solid var(--cor-fonte);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
