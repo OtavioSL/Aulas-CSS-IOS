@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    height: 100vh;
+    border: 2px solid black;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: 
+    "header header header header header header header header header header"
+    "header header header header header header header header header header"
+    "junin junin junin junin marcao marcao marcao marcao igao igao"
+    "junin junin junin junin marcao marcao marcao marcao igao igao"
+    "junin junin junin junin marcao marcao marcao marcao igao igao"
+    "carlao carlao carlao carlao carlao carlao carlao carlao carlao carlao"
+    "carlao carlao carlao carlao carlao carlao carlao carlao carlao carlao"
+    "alcione alcione alcione alcione alcione negao negao negao negao negao"
+    "alcione alcione alcione alcione alcione negao negao negao negao negao"
+    ;
+}
+
+.box {
+    border: 2px solid black;
+}
+.box1 {
+    grid-area: header;
+    background-color: blue;
+}
+
+.box2 {
+    grid-area: junin;
+    background-color: red;
+}
+
+.box3 {
+    grid-area: marcao;
+    background-color: yellow;
+}
+
+.box4 {
+    grid-area: igao;
+    background-color: pink;
+}
+
+.box5 {
+    grid-area: carlao;
+    background-color: purple;
+}
+
+.box6 {
+    grid-area: alcione;
+    background-color: brown;
+}
+
+.box7 {
+    grid-area: negao;
+    background-color: darkgreen;
+}
