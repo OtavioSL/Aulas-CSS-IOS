@@ -1,0 +1,18 @@
+.box {
+    height: 200px;
+    width: 200px;
+    border: 5px solid cadetblue;
+    margin: 5px;
+    display: inline-block;
+}
+
+.box1 {
+    box-sizing: content-box;
+    background-color: lightblue;
+}
+
+.box2 {
+    box-sizing: border-box;
+    background-color: lightcoral;
+}
+

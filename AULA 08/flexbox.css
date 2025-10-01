@@ -1,0 +1,44 @@
+.flex-container {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+    border: 2px solid black;
+}
+
+.flex-container > div {
+    background-color: dodgerblue;
+    
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+}
+                   /* Justify-content Trabalha com o Main Axis /*
+    /* Alinhamento com o main-axis */
+    /* justify-content: flex-start; os itens são exibidos alinhados no início do flex-direction */
+    /* justify-content: center; os itens são exibidos alinhados no centro do flex-direction */
+    /* justify-content: flex-end; os itens são exibidos alinhados no final do flex-direction */
+    /* justify-content: baseline; alinhamento com a linha do texto. */
+    /* justify-content: start; não leva em consideração o main-axis */
+    /* justify-content: end; não leva em consideração o main-axis */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+
+                     /* Align-items Trabalha com o Cross Axis /*
+    /* Alinhamento com o cross-axis */
+    /* align-items: flex-start; os itens são exibidos alinhados no início do cross-direction */
+    /* align-items: center; os itens são exibidos alinhados no centro do cross-direction */
+    /* align-items: flex-end; os itens são exibidos alinhados no final do cross-direction */
+    /* align-items: baseline; alinhamento com a linha do texto. */

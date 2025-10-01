@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+p::before {
+    content: "Início do parágrafo: ";
+    font-weight: bold;
+}
+p::after {
+    content: " (Maldição em latim inserida via CSS)";
+    color: red;
+}
+p::first-letter {
+    font-size: 200%;
+    color: blue;
+=======
+p::before {
+    content: "Início do parágrafo: ";
+    font-weight: bold;
+}
+p::after {
+    content: " (Maldição em latim inserida via CSS)";
+    color: red;
+}
+p::first-letter {
+    font-size: 200%;
+    color: blue;
+>>>>>>> da7271e6a298cdfce42e53ae27f1083c07eb723a
+}

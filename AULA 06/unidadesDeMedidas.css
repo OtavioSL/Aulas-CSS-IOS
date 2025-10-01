@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;    
+    font-size: 62.5%;
+}
+.texto1 {
+    color: brown;
+    font-size: 20px;
+}
+
+.texto2 {
+    background-color: maroon;
+    height: 100vh;
+    width: 50vw;
+}
+
+.texto3 {
+    color: green;
+    font-size: 1.2rem;
+}
+
+.texto4 {
+    color: blue;
+    font-size: 2em;
+}
+
+ol {
+    font-size: 15px;
+    color: purple;
+}
+li {
+    font-size: 2em;
+}
